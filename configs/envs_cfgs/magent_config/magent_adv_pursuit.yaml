@@ -1,0 +1,19 @@
+env: "MAgent_AdvPursuit"
+
+env_args:
+  map_name: "adversarial_pursuit_v3"
+  map_size: 45
+  max_cycles: 200
+  minimap_mode: True
+  pretrained_ckpt: null
+  global_reward: False
+  seed: 42
+
+
+test_greedy: True
+test_nepisode: 100
+test_interval: 50000
+log_interval: 50000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 5050000
